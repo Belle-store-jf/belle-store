@@ -710,3 +710,15 @@ button.sacola{
 .btn-topo:hover{
     background-color: var(--roxo-hover);
 }
+/* Melhora o espaçamento e a largura dos itens dentro do submenu */
+.submenu li a {
+    font-size: 16px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+/* Faz o submenu abrir no celular ao tocar em "Contatos" ou "Categorias" */
+#menu li:focus-within .submenu {
+    display: block;
+}
